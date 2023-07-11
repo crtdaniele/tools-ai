@@ -1,34 +1,18 @@
 # Tools AI
 
-### ReactJS
+### Design
 
 | No. | Domande                                                                                                                                                                                                                        |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     | **ReactJS**                                                                                                                                                                                                                   |
-| 1   | [Cos'è il Conditional Rendering?](#cosè-il-conditional-rendering)                                                    |
+|     | **Design**                                                                                                                                                                                                                   |
+| 1   | [Microsoft Designer](#microsoft-designer)                                                    |
 
-## ReactJS
+## Design
 
-1.  ### Cos'è il Conditional Rendering?
+1.  ### Microsoft Designer
 
-Il rendering condizionale in React è un modo per renderizzare i componenti in base a una determinata condizione. In questo modo, puoi evitare di aggiungere elementi al DOM, ma renderli visibili solo quando una determinata condizione viene rispettata.
+A graphic design app that helps you create professional quality social media posts, invitations, digital postcards, graphics, and more.
 
-In React, si utilizza &&, vediamo un esempio:
-
-```jsx
-function MioComponente(props) {
-  const isVisible = true;
-  return (
-    <div>
-      <h1>Ciao!</h1>
-      {isVisible && (
-        <h2>
-          Posso renderizzare questo h2.
-        </h2>
-      )}
-    </div>
-  );
-}
-```
+Link: https://designer.microsoft.com
 
 **[⬆ Torna su](#reactjs)**
